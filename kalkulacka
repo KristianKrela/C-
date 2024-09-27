@@ -1,0 +1,24 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	cout << "Vitaj v kalkulacke" << endl;
+	cout << "Zadajte prve cislo:" ;
+	float a , b;
+	cin >> a;
+	cout << "zadajdruhe cislo:" << endl;
+	cin >> b;
+	cout << "sucet:" << (a+b) << endl;
+	cout << "rozdiel:" << (a-b) << endl;
+	cout << "nasobenie" << (a*b) << endl;
+	cout << "podiel" << (a/b) << endl;
+	cout << "dik za pouzitie kalkulacky" << endl;
+
+
+
+
+	cin.get(); cin.get();
+	return 0;
+}
