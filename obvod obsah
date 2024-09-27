@@ -1,0 +1,16 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+		cout << "Zadajte polomer:" << endl;
+		float a, obvod, obsah;
+		cin >> a;
+		obvod = 2 * 3.14 * a;
+		obsah = 3.14 * (a * a);
+		cout << "Obvod kruhu je : " << obvod <<"cm" << " a jeho obsah je : " << obsah << "cm2" << endl;
+
+		cin.get(); cin.get();
+		return 0;
+}
