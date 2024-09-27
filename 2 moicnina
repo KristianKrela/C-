@@ -1,0 +1,16 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+		cout << "Zadajte cislo:" << endl;
+		int a,b;
+		cin >>a;
+		b = a * a;
+		cout << "Druha mocnina je :" << b << endl;
+
+
+		cin.get();
+		return 0;
+}
