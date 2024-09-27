@@ -1,0 +1,15 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+		cout << "Zadajte svoj vek:" << endl;
+		int a;
+		cin >>a;
+		cout << "Je ti " << a << "rokov" << endl;
+
+
+		cin.get();
+		return 0;
+}
