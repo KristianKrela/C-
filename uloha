@@ -1,0 +1,58 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	cout << "Vitajte v kalkulacke" << endl;
+	cout << "Zadaj prve cilso" << endl;
+	float a;
+	cin >> a;
+	cout << "zadajte druhe cislo" << endl;
+	float b;
+	cin >> b;
+	cout << "Zvolte sii operaciu:" << endl;
+	cout << "1 - scitanie " << endl;
+	cout << "2 - odcitanie " << endl;
+	cout << "3 - delenie " << endl;
+	cout << "4 - nasobenie " << endl;
+	cout << "5 porovnanie" << endl;
+	int volba;
+	cin >> volba;
+	float vysledok = 0.0f;
+
+	switch (volba)
+	{
+		case 1:
+			vysledok = a + b;
+			break;
+		case 2:
+			vysledok = a - b;
+			break;
+		case 3:
+			vysledok = a / b;
+			break;
+		case 4:
+			vysledok = a * b;
+			break;
+		case 5:
+			if()
+				cout << "cisla sarovnaju" << endl;
+			if
+				cout << "Prve cislo je vacsie ako druhe" << endl;
+			
+			else
+				cout << "Prve cislo je mensie ako druhe" << endl;
+	}
+	
+		if ((volba > 0) && (volba < 6))
+			cout << "Vysledok:" << vysledok << endl;
+		else
+			cout << "Neplatna volba" << endl;
+	cout << "dik za to ze si pouzil kalkulacku" << endl;
+
+
+
+		cin.get(); cin.get();
+		return 0;
+}
