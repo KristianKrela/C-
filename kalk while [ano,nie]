@@ -1,0 +1,51 @@
+#include<iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	float a, b;
+	cout << "____Vitaj v kalkulacke____" << endl;
+
+	string pokracovat = "ano";
+	while (pokracovat == "ano")
+	{
+		cout << "Zadaj cislo 1:" << endl;
+		cin >> a;
+		cout << "Zadaj cislo 2:" << endl;
+		cin >> b;
+		cout << "Zvolte si operaciu" << endl;
+		cout << "1-scitanie" << endl;
+		cout << "2-odcitanie" << endl;
+		cout << "3-nasobenie" << endl;
+		cout << "4-delenie" << endl;
+		int volba;
+		cin >> volba;
+		float vysledok = 0;
+		switch (volba)
+		{
+		case 1:
+			vysledok = a + b;
+			break;
+		case 2:
+			vysledok = a - b;
+			break;
+		case 3:
+			vysledok = a * b;
+			break;
+		case 4:
+			vysledok = a / b;
+			break;
+		}
+		if ((volba > 0) && (volba < 5))
+			cout << "Vysledok:" << vysledok << endl;
+		else
+			cout << "Neplatna volba" << endl;
+		cout << "Prajete si zadat dalsi priklad ?[ano/nie]" << endl;
+		cin >> pokracovat;
+	}
+
+	cin.get(); cin.get();
+	return 0;
+}
