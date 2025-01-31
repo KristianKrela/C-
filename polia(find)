@@ -1,0 +1,19 @@
+#include <iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+	const int dlzka_pola = 5;
+	int pole[dlzka_pola] = { 1,10,3,4,7 };
+	int hladanyprvok = 7;
+	int* i = find(pole, pole + dlzka_pola, hladanyprvok);
+	int pozicia = i-pole;
+	if (pozicia < dlzka_pola)
+		cout << "Prvok" << hladanyprvok << "Najdeny na pozicii:" << pozicia << "." << endl;
+	else
+		cout << "Prvok sa nenasiel" << endl;
+
+
+	cin.get(); cin.get();
+	return 0;
+}
